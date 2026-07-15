@@ -1,4 +1,4 @@
-package com.arislogic.harness.feature.profile.impl
+package com.arislogic.harness.feature.profile_impl
 
 import org.junit.Test
 

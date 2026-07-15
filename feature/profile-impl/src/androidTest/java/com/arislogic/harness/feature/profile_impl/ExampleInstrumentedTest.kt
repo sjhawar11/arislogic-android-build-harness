@@ -1,4 +1,4 @@
-package com.arislogic.harness.feature.profile.impl
+package com.arislogic.harness.feature.profile_impl
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.arislogic.harness.feature.profile.impl", appContext.packageName)
+        assertEquals("com.arislogic.harness.feature.profile_impl.test", appContext.packageName)
     }
 }

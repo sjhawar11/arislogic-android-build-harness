@@ -21,6 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "ArisLogic Harness"
 include(":app")
-include(":feature:profile-impl")
 include(":feature:profile-api")
 include(":core:model")
+include(":profile-impl")
