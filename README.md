@@ -1,5 +1,3 @@
-Here is the raw text for your root **`README.md`**. You can copy everything below this line directly into your `README.md` file:
-
 # ArisLogic Harness (`com.arislogic.harness`)
 
 A multi-module Android reference architecture and diagnostic suite for benchmarking **Gradle ABI invalidation cascades** and **Jetpack Compose parameter instability** across module boundaries.
