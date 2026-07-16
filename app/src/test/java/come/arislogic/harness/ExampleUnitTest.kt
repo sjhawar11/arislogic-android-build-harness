@@ -1,4 +1,4 @@
-package come.arislogic.harness
+package com.arislogic.harness
 
 import org.junit.Test
 

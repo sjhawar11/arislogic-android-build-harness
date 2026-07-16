@@ -1,4 +1,4 @@
-package come.arislogic.harness.ui.theme
+package com.arislogic.harness.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

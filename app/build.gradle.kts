@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "come.arislogic.harness"
+    namespace = "com.arislogic.harness"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "come.arislogic.harness"
+        applicationId = "com.arislogic.harness"
         minSdk = 28
         targetSdk = 36
         versionCode = 1
@@ -48,6 +48,9 @@ composeCompiler {
 
 
 dependencies {
+    // Add dependency on core:model
+    implementation(project(":core:model"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
